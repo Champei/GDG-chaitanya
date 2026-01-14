@@ -11,4 +11,4 @@ The system trains on historical stock data and produces:
 - Accuracy metrics (RMSE, MAE)
 
 # TASK-2
-This project implements a chat-bot using libraries from langchain like PyPDFLoader RecursiveCharacterTextSplitter,FAISS,HuggingFaceEmbeddings,ChatGroq,ConversationalRetrievalChain,ConversationBufferMemory,Tool, initialize_agent,ChatMessageHistory,MessagesPlaceholder . Often called as RAG(retrieval augmented generation)
+This project implements a chat-bot using libraries like PyPDFLoader RecursiveCharacterTextSplitter,FAISS,HuggingFaceEmbeddings,ChatGroq,ConversationalRetrievalChain,ConversationBufferMemory,Tool, initialize_agent,ChatMessageHistory,MessagesPlaceholder . Often called as RAG(retrieval augmented generation)
