@@ -11,4 +11,22 @@ The system trains on historical stock data and produces:
 - Accuracy metrics (RMSE, MAE)
 
 # TASK-2
+# done before easy method
 This project implements a chat-bot using libraries like PyPDFLoader RecursiveCharacterTextSplitter,FAISS,HuggingFaceEmbeddings,ChatGroq,ConversationalRetrievalChain,ConversationBufferMemory,Tool, initialize_agent,ChatMessageHistory,MessagesPlaceholder . Often called as RAG(retrieval augmented generation)
+# implemented for this task
+A natural-language financial chatbot that explains stock movements by combining market data, news retrieval (RAG), and LLM-based reasoning.
+- Identifies companies and tickers from user queries
+- Analyzes price trends and drops
+- Retrieves relevant financial news
+- Explains *why* stocks moved and *when* trends started
+ Example Questions
+- “Why did Apple stock drop?”
+- “When did Microsoft go up?”
+ Tech Stack
+- Python
+- LangChain
+- OpenAI / LLM API
+- yfinance
+- FAISS
+- newspaper3k
+
